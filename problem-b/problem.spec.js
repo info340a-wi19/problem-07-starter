@@ -25,7 +25,7 @@ const TEST_PETS = [
 
 describe('Source code is valid', () => {
   test('JavaScript lints without errors', async () => {
-    const sources = ['App.js'].map((src) => __dirname + '/js/' + src);
+    const sources = ['App.js'].map((src) => __dirname + '/src/' + src);
     const linterOptions = {}; //this should be sufficient with other fields
     sources.forEach((source) => {
       expect([source]).toHaveNoEsLintErrors(linterOptions); //test each

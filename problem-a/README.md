@@ -35,7 +35,7 @@ To complete the exercise, edit the included **`src/App.js`** and **`src/index.js
 
 2. In the **`index.js`** file, import the `App` class from `./App` (import it by name in `{}`; it is not a default export!) Then use the `ReactDOM.render()` function to render an instance of the `App` class into the HTML-provided `#root` element. This should cause your heading to appear in the served page.
 
-3. In the **`App.js`** file, implement a new React Component **`SenatorTable`** that will represent the data table of Senators. This component should have a `render()` function that renders a new `<table>` element with the CSS classes of `table` and `table-bordered` (for Bootstrap styling).
+3. In the **`App.js`** file, implement and export a new React Component **`SenatorTable`** that will represent the data table of Senators. This component should have a `render()` function that renders a new `<table>` element with the CSS classes of `table` and `table-bordered` (for Bootstrap styling).
 
     Modify the `App` class so that its `render()` method renders an instance of the `SenatorTable` class inside of the `<div>` (after the heading). _Use JSX to do this_.
 
